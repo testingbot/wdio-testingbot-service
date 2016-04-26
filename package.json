@@ -1,6 +1,6 @@
 {
   "name": "wdio-testingbot-service",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "WebdriverIO service for better TestingBot integration",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webdriverio/wdio-testingbot-service.git"
+    "url": "git+https://github.com/testingbot/wdio-testingbot-service.git"
   },
   "keywords": [
     "webdriverio",
@@ -22,9 +22,9 @@
   "author": "Jochen Delabie <info@testingbot.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webdriverio/wdio-testingbot-service/issues"
+    "url": "https://github.com/testingbot/wdio-testingbot-service/issues"
   },
-  "homepage": "https://github.com/webdriverio/wdio-testingbot-service#readme",
+  "homepage": "https://github.com/testingbot/wdio-testingbot-service#readme",
   "dependencies": {
     "request": "^2.67.0",
     "testingbot-tunnel-launcher": "^1.0.4"
