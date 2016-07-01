@@ -1,6 +1,6 @@
 {
   "name": "wdio-testingbot-service",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "WebdriverIO service for better TestingBot integration",
   "main": "index.js",
   "scripts": {
