@@ -1,6 +1,8 @@
 WDIO TestingBot Service
 ==========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/testingbot/wdio-testingbot-service.svg)](https://greenkeeper.io/)
+
 > A WebdriverIO service. It updates the job metadata ('name', 'passed', 'tags', 'public', 'build', 'extra') and runs TestingBot Tunnel if desired.
 
 ## Installation
