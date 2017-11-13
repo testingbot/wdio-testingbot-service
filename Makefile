@@ -9,3 +9,9 @@ clean:
 lint:
 		eslint lib/
 test: clean lint
+
+version:
+	node -e "console.log(require('./package.json').version)"
+
+release: 
+	npm run build

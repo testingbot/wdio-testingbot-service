@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "eslint lib/",
-    "lint": "eslint lib/"
+    "lint": "eslint lib/",
+    "build": "babel lib -d build"
   },
   "repository": {
     "type": "git",
@@ -36,25 +37,9 @@
     "babel-eslint": "^7.2.3",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-object-assign": "^6.22.0",
-    "babel-preset-env": "^1.4.0",
-    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-node": "^4.2.2",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "grunt": "^1.0.1",
-    "grunt-babel": "^7.0.0",
-    "grunt-bump": "^0.8.0",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-eslint": "^20.1.0",
-    "grunt-mocha-istanbul": "^5.0.2",
-    "grunt-npm": "0.0.2",
-    "isparta": "^4.0.0",
-    "load-grunt-tasks": "^3.2.0",
     "mocha": "^4.0.1",
     "should": "^13.1.3",
     "sinon": "^4.1.2"
