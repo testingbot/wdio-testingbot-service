@@ -28,34 +28,34 @@
   "homepage": "https://github.com/testingbot/wdio-testingbot-service#readme",
   "dependencies": {
     "request": "^2.67.0",
-    "testingbot-tunnel-launcher": "^1.1.0"
+    "testingbot-tunnel-launcher": "^1.1.4"
   },
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.23.0",
     "babel-core": "^6.23.1",
-    "babel-eslint": "^7.1.1",
+    "babel-eslint": "^8.0.2",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-rewire": "^1.0.0",
     "babel-plugin-transform-object-assign": "^6.22.0",
     "babel-preset-es2015": "^6.22.0",
-    "eslint": "^3.15.0",
-    "eslint-config-standard": "^6.2.1",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
     "eslint-plugin-promise": "^3.4.1",
-    "eslint-plugin-standard": "^2.0.1",
+    "eslint-plugin-standard": "^3.0.1",
     "grunt": "^1.0.1",
-    "grunt-babel": "^6.0.0",
+    "grunt-babel": "^7.0.0",
     "grunt-bump": "^0.8.0",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-eslint": "^19.0.0",
+    "grunt-eslint": "^20.1.0",
     "grunt-mocha-istanbul": "^5.0.2",
     "grunt-npm": "0.0.2",
     "isparta": "^4.0.0",
     "load-grunt-tasks": "^3.2.0",
-    "mocha": "^3.2.0",
-    "should": "^11.2.0",
-    "sinon": "^1.17.2"
+    "mocha": "^4.0.1",
+    "should": "^13.1.3",
+    "sinon": "^4.1.2"
   }
 }
