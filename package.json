@@ -1,6 +1,6 @@
 {
   "name": "wdio-testingbot-service",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "WebdriverIO service for better TestingBot integration",
   "main": "index.js",
   "scripts": {
@@ -28,20 +28,20 @@
   },
   "homepage": "https://github.com/testingbot/wdio-testingbot-service#readme",
   "dependencies": {
-    "request": "^2.67.0",
-    "testingbot-tunnel-launcher": "^1.1.5"
+    "request": "^2.87.0",
+    "testingbot-tunnel-launcher": "^1.1.6"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.2.6",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-object-assign": "^6.22.0",
     "babel-preset-env": "^1.6.1",
-    "eslint": "^3.19.0",
-    "eslint-config-standard": "^10.2.1",
-    "mocha": "^4.0.1",
+    "eslint": "^5.2.0",
+    "eslint-config-standard": "^11.0.0",
+    "mocha": "^5.2.0",
     "should": "^13.1.3",
-    "sinon": "^4.1.2"
+    "sinon": "^6.1.4"
   }
 }
