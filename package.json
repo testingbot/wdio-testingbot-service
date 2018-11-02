@@ -1,6 +1,6 @@
 {
   "name": "wdio-testingbot-service",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "WebdriverIO service for better TestingBot integration",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,7 @@
   "homepage": "https://github.com/testingbot/wdio-testingbot-service#readme",
   "dependencies": {
     "request": "^2.87.0",
-    "testingbot-tunnel-launcher": "^1.1.6"
+    "testingbot-tunnel-launcher": "^1.1.7"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
