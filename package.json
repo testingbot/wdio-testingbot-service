@@ -1,6 +1,6 @@
 {
   "name": "wdio-testingbot-service",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "WebdriverIO service for better TestingBot integration",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,10 @@
     "clean": "rm -rf ./build",
     "compile": "babel lib/ -d build/",
     "eslint": "eslint ./lib",
-    "release": "np patch",
-    "release:patch": "np patch",
-    "release:minor": "np minor",
-    "release:major": "np major",
+    "release": "npm run build && np patch",
+    "release:patch": "npm run build && np patch",
+    "release:minor": "npm run build && np minor",
+    "release:major": "npm run build && np major",
     "test": "run-s eslint",
     "prepublish": "npm prune",
     "watch": "npm run compile -- --watch"
@@ -53,7 +53,7 @@
     "eslint-plugin-node": "^4.2.2",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
-    "np": "^2.13.3",
+    "np": "^3.0.4",
     "npm-run-all": "^4.0.2"
   }
 }
