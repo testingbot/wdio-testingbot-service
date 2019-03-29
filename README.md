@@ -1,3 +1,5 @@
+## This repo is deprecated, please follow https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-testingbot-service 
+
 [![Greenkeeper badge](https://badges.greenkeeper.io/testingbot/wdio-testingbot-service.svg)](https://greenkeeper.io/)
 [![npm](https://img.shields.io/npm/v/wdio-testingbot-service.svg?maxAge=2592000)](https://www.npmjs.com/package/wdio-testingbot-service)
 [![dependencies Status](https://david-dm.org/testingbot/wdio-testingbot-service/status.svg)](https://david-dm.org/testingbot/wdio-testingbot-service)
