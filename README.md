@@ -1,3 +1,6 @@
+> [!WARNING]
+> **This repository is deprecated and no longer maintained.** Use the official [`@wdio/testingbot-service`](https://www.npmjs.com/package/@wdio/testingbot-service) from the WebdriverIO project instead.
+
 ## This repo is deprecated, please follow https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-testingbot-service 
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/testingbot/wdio-testingbot-service.svg)](https://greenkeeper.io/)
